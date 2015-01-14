@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Twitter oAuth</string>
+
+    <string name="hello">MainActivity</string>
+
+    <string name="logout">LOG OUT</string>
+</resources>

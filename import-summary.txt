@@ -1,0 +1,109 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .hg_archival.txt
+* .hgignore
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\gradle.xml
+* .idea\inspectionProfiles\
+* .idea\inspectionProfiles\Project_Default.xml
+* .idea\inspectionProfiles\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* README.md
+* Twitter oAuth.apk
+* ant.properties
+* build.xml
+* import-summary.txt
+* out\
+* out\production\
+* out\production\TheWhoKnowsMeApp\
+* out\production\TheWhoKnowsMeApp\TheWhoKnowsMeApp.apk
+* out\production\TheWhoKnowsMeApp\com\
+* out\production\TheWhoKnowsMeApp\com\hintdesk\
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\BuildConfig.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\CipherUtils.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\ConstantValues.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\Data.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\LetterUtils.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\MainActivity$1.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\MainActivity$TwitterAuthenticateTask.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\MainActivity.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\OAuthActivity.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\OAuthWebViewFragment$1.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\OAuthWebViewFragment.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\R$attr.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\R$drawable.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\R$id.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\R$layout.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\R$menu.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\R$string.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\R.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\SerializationUtil.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\TweetData.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\TwitterActivity$1.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\TwitterActivity$2.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\TwitterActivity$TwitterGetAccessTokenTask.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\TwitterActivity$TwitterGetFreinds.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\TwitterActivity$TwitterUpdateStatusTask.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\TwitterActivity.class
+* out\production\TheWhoKnowsMeApp\com\hintdesk\Twitter_oAuth\TwitterUtil.class
+* proguard-project.txt
+* serviceExample\
+* serviceExample\serviceExample.iml
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\hintdesk.core.jar => app\libs\hintdesk.core.jar
+* libs\twitter4j-core-4.0.1.jar => app\libs\twitter4j-core-4.0.1.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
